@@ -1,0 +1,268 @@
+:root {
+    --font-weight-medium: 500;
+    --font-weight-bold: 600;
+
+    --color-dark-grey: #1196d8; /* Измените значение */
+    --color-light-grey: #e71818; /* кнопка при выделении */
+    --color-grey: #8e96a0; /* Измените значение */
+    --color-white: #c2c2ce; /* цыет кнопки */
+
+    --font-size-medium: 24px;
+    --font-size-large: 36px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+}
+
+/* Общие CSS-правила */
+
+.wrapper {
+    width: 83.625%;
+    margin: 0 auto;
+}
+
+.flex-container-justify-between-align-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-container-column {
+    display: flex;
+    flex-direction: column;
+}
+.card1 {
+       border-radius: 20px;  
+    }
+.card2 {
+        border-radius: 20px;
+    }
+.card3 {
+        border-radius: 20px;
+    }
+.card4 {
+        border-radius: 20px;
+    }
+
+.girl-learn {
+       border-radius: 20px;
+    }
+
+
+/* Стили для header */
+.container-header {
+    padding-top: 55px;
+    padding-bottom: 50.5px;
+}
+
+.navigation {
+    gap: 40px;
+}
+
+.navigation a {
+    font-weight: var(--font-weight-medium);
+    font-size: 20px;
+    color: var(--color-dark-grey);
+    transition: all 0.3s;
+}
+
+.navigation a:hover {
+    color: var(--color-light-grey);
+}
+
+.container-header>a:nth-of-type(1) {
+    font-size: var(--font-size-large);
+}
+
+.grey-logo {
+    color: #696464; /* Измените значение */
+}
+
+.container-header>a:nth-of-type(2) {
+    font-size: var(--font-size-medium);
+    padding: 17px 57px;
+    border: 2px solid var(--color-dark-grey);
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.container-header>a:nth-of-type(2):hover {
+    background-color: var(--color-light-grey);
+}
+
+
+/* Стили для learn-lang */
+
+.container-learn-lang {
+    padding-top: 50.5px;
+    padding-bottom: 73.5px;
+}
+
+/* 1338 */
+/* 40,807% */
+/* 45,413% */
+.container-learn-lang div:first-child {
+    width: 40.807%;
+}
+
+.container-learn-lang .girl-learn {
+    width: 45.413%;
+}
+
+.container-learn-lang .flex-container-column .header-learn-section {
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.container-learn-lang h1 {
+    font-weight: var(--font-weight-bold);
+    font-size: 64px;
+    line-height: 125%;
+}
+
+.container-learn-lang p {
+    font-size: var(--font-size-medium);
+    color: var(--color-grey);
+    margin-bottom: 61px;
+}
+
+.container-learn-lang a {
+    font-size: var(--font-size-large);
+    color: var(--color-white);
+    border-radius: 15px;
+    background-color: var(--color-dark-grey);
+    padding: 32px 117px;
+    align-self: flex-start;
+    transition: transform 0.3s ease;
+}
+
+.container-learn-lang a:hover {
+    transform: rotate(5deg);
+}
+
+
+/* Стили для skills */
+
+
+
+.container {
+    padding: 40px 0px;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.skills>* {
+    background-color: #3b8cd8cc; /* Измените значение */
+    border-radius: 10px;
+    display: flex;
+}
+
+.skills>div:nth-of-type(1) {
+    flex-direction: column;
+    padding: 42px;
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+}
+
+.skills>div:nth-of-type(2) {
+    flex-direction: column;
+    padding: 42px;
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+}
+
+.skills>div:nth-of-type(2) img {
+    height: 254.641px;
+}
+
+.skills>div:nth-of-type(3) {
+    flex-direction: column;
+    padding: 42px;
+    grid-column: 3 / 4;
+    grid-row: 1 / 3;
+}
+
+.skills>div:nth-of-type(4) {
+    flex-direction: row-reverse;
+    padding: 42px;
+    grid-column: 2 / 4;
+    grid-row: 3 / 4;
+}
+
+
+.skills h3 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 80px;
+    color: #263238; /* Измените значение */
+    margin-bottom: 5px;
+}
+
+
+.skills p {
+    /* font-weight: 400; */
+    /* font-size: 16px; */
+    line-height: 24px;
+    color: #02040a; /* Измените значение */
+    margin-bottom: 36px;
+}
+
+.skills a {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #ffffff; /* Измените значение */
+    padding: 16px 50px;
+    border-radius: 5px;
+    background-color: #263238; /* Измените значение */
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.skills a:hover {
+    color: #000; /* Измените значение */
+    border-radius: 0px;
+    background-color: #263238a6; /* Измените значение */
+}
+
+/* Стили для footer */
+footer {
+    padding-top: 66.5px;
+}
+
+.logo {
+    font-size: var(--font-size-large);
+}
+
+.text-footer,
+.text-footer a {
+    color: var(--color-grey);
+    font-size: var(--font-size-medium);
+}
+
+.text-footer a {
+    transition: all 0.3s ease;
+}
+
+.text-footer a:hover {
+    color: var(--color-dark-grey);
+}
+
+.block-footer {
+    border-top: 1px solid #c4c4c4; /* Измените значение цвета */
+    padding-top: 31px;
+    padding-bottom: 64px;
+}

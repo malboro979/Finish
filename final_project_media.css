@@ -1,0 +1,261 @@
+@media screen and (max-width: 1279px) {
+    .container-learn-lang a {
+        font-size: 32px;
+        border-radius: 10px;
+        padding: 28px 96px;
+    }
+}
+
+
+@media screen and (max-width: 1100px) {
+    .container-learn-lang a {
+        font-size: 24px;
+        border-radius: 5px;
+        padding: 22px 78px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    /* Общие CSS-правила */
+
+    .wrapper {
+        width: 93.75%;
+    }
+
+
+    /* Стили для header */
+    .container-header {
+        padding-top: 25px;
+        padding-bottom: 40.5px;
+    }
+    .card1 {
+       border-radius: 20px;  
+    }
+    .card2 {
+        border-radius: 20px;
+    }
+    .card3 {
+        border-radius: 20px;
+    }
+    .card4 {
+        border-radius: 20px;
+    }
+
+    .girl-learn {
+       border-radius: 20px; 
+    }
+    .navigation {
+        gap: 35px;
+    }
+
+    .navigation a {
+        font-size: 16px;
+    }
+
+    .container-header>a:nth-of-type(1) {
+        font-size: 30px;
+    }
+
+    .container-header>a:nth-of-type(2) {
+        font-size: 18px;
+        padding: 12px 40px;
+    }
+
+
+    /* Стили для learn-lang */
+    .container-learn-lang {
+        padding-top: 40.5px;
+        padding-bottom: 23.5px;
+    }
+
+    .container-learn-lang div:first-child {
+        width: 46.236%;
+    }
+
+    .container-learn-lang .girl-learn {
+        width: 49.462%;
+    }
+
+    .container-learn-lang .flex-container-column .header-learn-section {
+        margin-bottom: 27px;
+    }
+
+    .container-learn-lang h1 {
+        font-size: 48px;
+        line-height: 133%;
+    }
+
+    .container-learn-lang p {
+        font-size: 20px;
+        margin-bottom: 33px;
+    }
+
+    /* Стили для skills */
+    .skills {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+
+    .skills>div {
+        width: 48%;
+    }
+
+    .skills>div:nth-of-type(4) {
+        flex-direction: column;
+    }
+
+    .skills>div:nth-of-type(4) img,
+    .skills>div:nth-of-type(4) .text-content {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    /* Общие CSS-правила */
+
+    .wrapper {
+        width: 89.83%;
+    }
+
+    /* Стили для learn-lang */
+    .container-learn-lang {
+        padding-top: 20px;
+        padding-bottom: 28px;
+    }
+
+    .container-learn-lang div:first-child {
+        width: 49%;
+    }
+
+    .container-learn-lang .girl-learn {
+        width: 51%;
+    }
+
+    .container-learn-lang .flex-container-column .header-learn-section {
+        margin-bottom: 25px;
+    }
+
+    .light {
+        width: 80px;
+    }
+
+    .container-learn-lang h1 {
+        font-size: 36px;
+        line-height: 125%;
+    }
+
+    .container-learn-lang p {
+        font-size: 16px;
+        margin-bottom: 32px;
+    }
+
+    .container-learn-lang a {
+        font-size: 18px;
+        padding: 19px 67px;
+    }
+
+
+    /* Стили для skills */
+    .skills {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+
+    .skills>div {
+        width: 100%;
+    }
+
+    .skills>div:nth-of-type(4) {
+        flex-direction: column;
+    }
+
+    .skills>div:nth-of-type(4) img,
+    .skills>div:nth-of-type(4) .text-content {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    /* Общие CSS-правила */
+
+    .wrapper {
+        width: 88.869%;
+    }
+
+    .flex-container-justify-between-align-center {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+
+    /* Стили для learn-lang */
+    .container-learn-lang {
+        gap: 17px;
+        padding-top: 5.5px;
+        padding-bottom: 48px;
+    }
+
+    .container-learn-lang div:first-child {
+        width: 100%;
+    }
+
+    .container-learn-lang .girl-learn {
+        width: 100%;
+    }
+
+    .container-learn-lang .flex-container-column .header-learn-section {
+        margin-bottom: 25px;
+    }
+
+    .light {
+        display: none;
+    }
+
+    .container-learn-lang h1 {
+        font-size: 34px;
+        line-height: 132%;
+        text-align: center;
+    }
+
+    .container-learn-lang p {
+        margin-bottom: 37px;
+        text-align: center;
+    }
+
+    .container-learn-lang a {
+        padding: 24px 101px;
+        align-self: center;
+    }
+
+}
+
+
+@media (max-width: 1515px) {
+    .skills>div {
+        padding: 21px;
+    }
+
+    .skills h3 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+    .skills p {
+        line-height: 20px;
+        margin-bottom: 18px;
+    }
+
+    .skills a {
+        line-height: 20px;
+        padding: 12px 32px;
+    }
+}
